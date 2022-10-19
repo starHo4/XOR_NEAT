@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hoshi/マイドライブ/大学院関係/_hash_lab_of_hoshi/Programming/c++/XOR_NEAT
+# Install script for directory: /Users/hoshi/マイドライブ/大学院関係/_hash_lab_of_hoshi/Programming/c++/XOR_NEAT
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/hoshi/マイドライブ/大学院関係/_hash_lab_of_hoshi/Programming/c++/XOR_NEAT/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/hoshi/マイドライブ/大学院関係/_hash_lab_of_hoshi/Programming/c++/XOR_NEAT/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -10,6 +10,22 @@ void Population::Initialize(const Parameter &P, mt19937_64 &mt)
     }
 }
 
+void Population::EvaluateFitness()
+{
+    for(int i=0; i<population.size(); i++)
+    {
+        population[i].Compute();
+    }
+}
+
+void Population::Reproduce()
+{
+}
+
+void Population::Mutate()
+{
+}
+
 ostream &operator<<(ostream &os, const Population &Pop)
 {
     for (int i = 0; i < Pop.population.size(); i++)

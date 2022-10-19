@@ -15,6 +15,9 @@ class Population
 
     // Public Methods 
     void Initialize(const Parameter &P, mt19937_64 &mt);
+    void EvaluateFitness();
+    void Reproduce();
+    void Mutate();
 
     // Operator
     friend ostream& operator<<(ostream&os, const Population& Pop);

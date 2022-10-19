@@ -8,6 +8,9 @@
 class NeuralNetwork
 {
 private:
+    // Private Methods
+    void CreateNNFromGenotype();
+
 public:
     // Constructor & Destructor
     NeuralNetwork() {}
@@ -29,7 +32,7 @@ public:
 
     // Public Methods
     void Initialize(const Parameter &P, mt19937_64 &mt);
-    void Compute(const vector<double> &_Input);
+    void Compute(/* const vector<double> &_Input */ );
 
     // Operator
     friend ostream &operator<<(ostream &os, const NeuralNetwork &Net);
